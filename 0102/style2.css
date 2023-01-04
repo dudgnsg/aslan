@@ -7,25 +7,30 @@
 .headerwrap{
   width: 100vw;
   height: 200px;
-  display: flex;
+  display: block;
   box-sizing: border-box;
   border: 1px solid black;
   background-color: white;
   position: fixed;
   
 }
+a{
+  text-decoration: none;
+}
 .title{
   text-align: center;
+
+  
 }
 .login{
   float: right;
-  border: 1px solid blue;
+  
   margin-bottom: 60px
   ;
   
 }
 .login ul li{
- 
+  list-style: none;
   display: inline-block;
   clear: both;
 
@@ -33,7 +38,7 @@
 .categori{
   width: 100vw;
   height: 40px;
-  border: 1px solid rgb(221, 95, 95);
+  
   font-size: 30px;
 }
 .categori ul li{
@@ -48,7 +53,7 @@ li{
 
 
 
-/* #header.left{
+#header.left{
   float: left;
   width: 200px;
   height: 50px;
@@ -126,7 +131,7 @@ button {
   cursor: pointer;
   outline: none;
   /* font-size: 15px; */
-/* }
+}
 
 
 .right-bottom{
@@ -177,4 +182,4 @@ img{
   
   
 }
- */
+
