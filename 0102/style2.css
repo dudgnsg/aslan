@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.headerwrap{
+  width: 100vw;
+  height: 200px;
+  display: flex;
+  box-sizing: border-box;
+  border: 1px solid black;
+  background-color: white;
+  position: fixed;
+  
+}
+.title{
+  text-align: center;
+}
+.login{
+  float: right;
+  border: 1px solid blue;
+  margin-bottom: 60px
+  ;
+  
+}
+.login ul li{
+ 
+  display: inline-block;
+  clear: both;
+
+}
+.categori{
+  width: 100vw;
+  height: 40px;
+  border: 1px solid rgb(221, 95, 95);
+  font-size: 30px;
+}
+.categori ul li{
+  
+ 
+  display: inline-block;
+  
+}
+li{
+  list-style: none;
+}
+
+
+
+/* #header.left{
+  float: left;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  
+}
+.right-top{
+  text-align: right;
+}
+.left{
+ border: 1px solid black;
+ width: 280px;
+ height: 80px;
+}
+#search-icon{
+  width: 40px;
+  height: 40px;
+}
+#search{
+  width: 200px;
+  height: 70px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-bottom:10px;
+
+}
+.search-form {
+  position: relative;
+}
+.search-form input[type='text'] {
+  padding: 10px 45px 10px 15px;
+  border: 0;
+  border-radius: 20px;
+  background: #f7f7f7;
+  font-size: 14px;
+  height: 40px;
+  width: 205px;
+  max-width: 205px;
+}
+.search-form .btn-search {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 52px;
+  height: 43px;
+  font-size: 0;
+}
+.hidden {
+  position: absolute;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+.header-wrap .header-top .search-wrap .sch-box {
+  display: none;
+  position: absolute;
+  top: 42px;
+  left: 0;
+  width: 220px;
+  padding: 18px 16px 30px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #E5E5E5;
+  text-align: left;
+}
+button {
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+  /* font-size: 15px; */
+/* }
+
+
+.right-bottom{
+  float: right;
+}
+.categori{
+  background-color: white;
+  width: 800px;
+  height: 50px;
+  
+  
+}
+ul{
+  list-style: none;
+  display: inline-block;
+  font-size: 30px;
+}
+li{
+  list-style: none;
+  display: inline-block;
+  font-size: 30px;
+}
+.container{
+  box-sizing: border-box;
+  width: 100vw;
+  
+
+}
+.box1{
+  display: inline-block;
+  
+  width: 340px;
+  height: 500px;
+  margin: 10px;
+  margin-top: 10px;
+  
+}
+
+
+.container image{
+  display: inline-block;
+  
+}
+img{
+  float: left;
+  padding: 10px;
+  border-radius: 30px;
+  
+  
+}
+ */
